@@ -19,23 +19,137 @@ public class NumberService implements INumberService {
         } else if (b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category2"+"\n";
             printController.printCategory(patternCategory);
-        } else if (b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f)){
+        } else if (!b.equals(g) && b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category3"+"\n";
             printController.printCategory(patternCategory);
-        } else if (a.equals(b) && b.equals(c) && c.equals(d) && d.equals(e) && f.equals(g)){
+        } else if (!a.equals(f) && a.equals(b) && b.equals(c) && c.equals(d) && d.equals(e) && f.equals(g)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category5.1"+"\n";
             printController.printCategory(patternCategory);
-        } else if (b.equals(c) && c.equals(d) && d.equals(e) && f.equals(g)){
+        } else if (!b.equals(f) && b.equals(c) && c.equals(d) && d.equals(e) && f.equals(g)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category6"+"\n";
             printController.printCategory(patternCategory);
-        } else if (a.equals(b) && b.equals(c) && c.equals(d) && e.equals(f) && f.equals(g)){
+        } else if (!a.equals(e) && a.equals(b) && b.equals(c) && c.equals(d) && e.equals(f) && f.equals(g)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category6.1"+"\n";
             printController.printCategory(patternCategory);
-        } else if (b.equals(c) && c.equals(d) && e.equals(f) && f.equals(g)){
+        } else if (!b.equals(e) && b.equals(c) && c.equals(d) && e.equals(f) && f.equals(g)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category7"+"\n";
             printController.printCategory(patternCategory);
-        } else if (a.equals(b) && c.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
+        } else if (!a.equals(c) && a.equals(b) && c.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
             patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category7.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category8"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(c) && b.equals(d) && c.equals(e) && d.equals(f) && e.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category9"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(d) && a.equals(b) && b.equals(c) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category9.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(d) && b.equals(c) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category10"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(c) && !c.equals(d) && a!=b && b!=c && c!=d && b.equals(e) && c.equals(f) && d.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category11"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(c) && a.equals(b) && b.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category11.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(c) && b.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category12"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(c) && b.equals(e) && c.equals(d) && d.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category13"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!c.equals(d) && b.equals(c) && c.equals(e) && d.equals(g) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category14"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(d) && a.equals(b) && b.equals(c) && c.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category14.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(d) && b.equals(c) && c.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category15"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && !b.equals(c) && a.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category15.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(c) && !c.equals(d) && a.equals(b) && b.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category15.2"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(d) && !d.equals(e) && a.equals(b) && b.equals(c) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category15.3"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(e) && !e.equals(f) && a.equals(b) && b.equals(c) && c.equals(d) && d.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category15.4"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && a.equals(c) && b.equals(f) && c.equals(e) && e.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category17"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(c) && a.equals(b) && b.equals(f) && c.equals(d) && d.equals(e) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category17.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(d) && b.equals(c) && c.equals(e) && d.equals(f) && e.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category19"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(d) && b.equals(c) && c.equals(f) && d.equals(e) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category20"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && a.equals(c) && b.equals(d) && c.equals(e) && d.equals(f) && e.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category21"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && a.equals(c) && b.equals(d) && c.equals(e) && d.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category22"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(d) && !d.equals(f) && b.equals(c) && d.equals(e) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category23"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(g) && a.equals(b) && b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category24"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && !b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category25"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(e) && a.equals(b) && b.equals(c) && c.equals(d) && d.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category26"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(e) && b.equals(c) && c.equals(d) && d.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category27"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && !b.equals(g) && b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category28"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && a.equals(g) && b.equals(c) && c.equals(d) && d.equals(e) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category29"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(f) && a.equals(b) && b.equals(c) && c.equals(d) && d.equals(e) && e.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category29.1"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(f) && b.equals(c) && c.equals(d) && d.equals(e) && e.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category30"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(c) && !c.equals(g) && a.equals(b) && c.equals(d) && d.equals(e) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category31"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!b.equals(c) && !c.equals(e) && c.equals(d) && d.equals(f) && f.equals(g)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category32"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(e) && a.equals(b) && b.equals(c) && c.equals(d) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category33"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(d) && a.equals(b) && b.equals(c) && d.equals(e) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category34"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(c) && !c.equals(e) && a.equals(b) && c.equals(d) && e.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category35"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(c) && a.equals(b) && b.equals(d) && d.equals(e) && e.equals(f) && f.equals(c)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category36"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(b) && !b.equals(c) && a.equals(d) && b.equals(e) && c.equals(f)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category37"+"\n";
+            printController.printCategory(patternCategory);
+        } else if (!a.equals(f) && !f.equals(g) && a.equals(b) && b.equals(c) && c.equals(d) && d.equals(e)){
+            patternCategory = preNumber+a+""+b+""+c+""+d+""+e+""+f+""+g+"$Category38"+"\n";
             printController.printCategory(patternCategory);
         }
     }
